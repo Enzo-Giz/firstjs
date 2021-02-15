@@ -1,9 +1,8 @@
-let age = 16    
-if(age < 18) {
-    console.log("You are not of age !")
-}
-else if (age < 21) {
-    console.log("You are of age in France")
-} else {
-    console.log("you are of age everywhere, the casinos are yours !")
-}
+let choix;
+
+do {
+
+    let choix = prompt("Que souhaitez-vous faire ?\n\n1 - Addition\n2 - Multiplication\n3 - Soustraction\n4 - Division") 
+
+} while(choix == null)
+
